@@ -53,7 +53,7 @@ ul.topnav li a:hover:not(.active) {
       padding: 50px;
   }
 
-  .fastFood {
+  .photos {
       padding: 20px;
       margin-left: 25px;
       text-align: left;
@@ -63,21 +63,21 @@ ul.topnav li a:hover:not(.active) {
       padding-top: 70px;
   }
 
-  .fastFood>h3,
-  .fastFood>h4,
+  .photos>h3,
+  .photos>h4,
   .drinksInfo>h3,
   .drinksInfo>h4 {
       font-weight: bold;
   }
 
-  .fastFoodPhotos,
+  .gallery,
   .drinksInfoPhotos {
       padding: 20px;
       border: 2px solid rgba(211, 211, 211, 0.44);
       box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
   }
 
-  .fastFoodPhotos>img,
+  .gallery>img,
   .drinksInfoPhotos>img {
       margin: auto;
       text-align: center;
@@ -85,4 +85,18 @@ ul.topnav li a:hover:not(.active) {
 
   .drinksInfoPhoto2 {
       float: right;
+  }
+  button {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: white;
+        color: #f15a29;
+        border: 1px solid #f15a29;
+    }
+  h1, h2 {
+    text-align: center;
+  }
+  #show-price {
+    text-align: center;
+    display: none;
   }
