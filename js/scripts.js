@@ -54,7 +54,7 @@ $(document).ready(function() {
     }
     var newOrder = new Pizza(orderName, orderSize, orderToppings, orderCrust);
 
-  $("#total").text("$" + newOrder.calculatePrice().toFixed(2));
+  $("#total").text("Ksh." + newOrder.calculatePrice().toFixed(2));
   $("#name").text(orderName);
   $("#show-price").show();
 });
