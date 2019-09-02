@@ -65,27 +65,23 @@ ul.topnav li a:hover:not(.active) {
 
   .photos>h3,
   .photos>h4,
-  .drinksInfo>h3,
-  .drinksInfo>h4 {
+  {
       font-weight: bold;
   }
 
   .gallery,
-  .drinksInfoPhotos {
+   {
       padding: 20px;
       border: 2px solid rgba(211, 211, 211, 0.44);
       box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
   }
 
   .gallery>img,
-  .drinksInfoPhotos>img {
+   {
       margin: auto;
       text-align: center;
   }
 
-  .drinksInfoPhoto2 {
-      float: right;
-  }
   button {
         margin-top: 20px;
         padding: 10px;
