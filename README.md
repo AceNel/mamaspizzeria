@@ -25,7 +25,7 @@ The website is expected to function as follows:
 * Markdown Syntax
 
 ## Live page
-https://AceNel.github.io/Pizza/index.html
+https://AceNel.github.io/Pizza
 
 ## Support and contact details
 
