@@ -16,13 +16,13 @@ Pizza.prototype.calculatePrice = function() {
     this.totalPrice = 400;
   }
   if (this.orderCrust === "crispy") {
-  this.totalPrice += 150;
-} else if (this.orderCrust === "stuffed") {
-  this.totalPrice += 250;
-} else if (this.orderCrust === "glutten-free") {
-  this.totalPrice += 300;
-}
-if (this.orderToppings === 4) {
+    this.totalPrice += 150;
+  } else if (this.orderCrust === "stuffed") {
+    this.totalPrice += 250;
+  } else if (this.orderCrust === "glutten-free") {
+    this.totalPrice += 300;
+  }
+  if (this.orderToppings === 4) {
     this.totalPrice += 400;
   } else if (this.orderToppings === 3) {
     this.totalPrice += 300;
@@ -54,16 +54,16 @@ $(document).ready(function() {
     }
     var newOrder = new Pizza(orderName, orderSize, orderToppings, orderCrust);
 
-  $("#total").text("Ksh." + newOrder.calculatePrice().toFixed(2));
-  $("#name").text(orderName);
-  $("#show-price").show();
-});
-$("#delivery").submit(function () {
+    $("#total").text("Ksh." + newOrder.calculatePrice().toFixed(2));
+    $("#name").text(orderName);
+    $("#show-price").show();
+  });
+  $("#delivery").submit(function() {
 
     var name = $("input#name").val();
     var number = $("input#number").val();
     var location = $("input#location").val();
 
-    alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing mama's pizzeria.");
-});
+    alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " + location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing mama's pizzeria.");
+  });
 });
