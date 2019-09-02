@@ -96,3 +96,11 @@ ul.topnav li a:hover:not(.active) {
     text-align: center;
     display: none;
   }
+
+#footer {
+  margin-left: 23%;
+}
+
+#copyright {
+  text-align: center;
+}
